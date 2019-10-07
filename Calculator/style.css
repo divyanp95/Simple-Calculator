@@ -1,0 +1,28 @@
+body{
+    background-color: gray !important;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    position:relative;
+    margin:10% auto;
+    width:400px;
+    height:425px;
+    border: solid black;
+}
+.table,th,td{
+    width:auto;
+    height:70px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+
+
+
+
