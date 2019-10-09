@@ -1,24 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
 body{
-    background-color: gray !important;
+    background-color: #2C3E50 !important;
     display:flex;
     justify-content: center;
     align-items: center;
-    
 }
+
 
 .box{
     position:relative;
     margin:10% auto;
-    width:400px;
-    height:425px;
-    border: solid black;
+    width:340px;
+    height:480px;
+    border: solid black !important;
 }
-.table,th,td{
+.table{
+    border-collapse: collapse !important;
+    font-family: 'Orbitron', sans-serif;
+
+}
+#display{
+    text-align:end;
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+    background-color: black;
+    width:100%;
+}
+.table td
+{
+    padding: 1.2rem !important;
     width:auto;
-    height:70px;
-    border: 1px solid black;
-    text-align: center;
+    font-size:1.5rem;
+    background-color: dimgrey;
+    border: 1px solid black !important;
+    text-align: center !important;
 }
+
+input
+{
+    width:auto;
+    background: transparent;
+    border-style:none;
+}
+input[type="button"] 
+{ 
+    color: white; 
+}
+
+input[type="button" i] 
+{
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: white;
+    box-sizing: border-box;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-color: buttonface;
+    border-image: initial;
+}
+input[type="button"]:focus 
+{
+    outline:0;
+}
+
+
+
+
 
 
 
