@@ -17,19 +17,3 @@ function perform(){
     var val2 = eval(val1);
     document.getElementById("display").value = val2;
 }
-function addition(a,b)
-{
-    return a+b;
-}
-function substraction(a,b)
-{
-    return a-b;
-}
-function multiply(a,b)
-{
-    return a*b;
-}
-function division(a,b)
-{
-    return a/b;
-}
