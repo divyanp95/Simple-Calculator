@@ -1,3 +1,4 @@
+/*display the result*/
 function display(n)
 {
     if(n>16)
@@ -6,11 +7,15 @@ function display(n)
     }
     document.getElementById("display").value+=n;
 }
+
+/*clear resultsin display*/
 function clr()
 {
     document.getElementById("display").value="";
 
 }
+
+/*Perform specific operations*/
 function perform(){
     var val1 = document.getElementById("display").value;
     
