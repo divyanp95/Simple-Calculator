@@ -1,10 +1,6 @@
 /*display the result*/
 function display(n)
 {
-    if(n>16)
-    {
-        document.getElementById("display").text = "DISPLAY LIMIT MET";
-    }
     document.getElementById("display").value+=n;
 }
 
